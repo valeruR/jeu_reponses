@@ -1,0 +1,31 @@
+[
+  {
+    "title": "numero departements",
+    "id": 0,
+    "cards": [
+      { "id": 0, "question": "Ain", "answer": "01" },
+      { "id": 1, "question": "Eure", "answer": "27" },
+      { "id": 2, "question": "Haute-Marne", "answer": "52" },
+      { "id": 3, "question": "Yvelines", "answer": "78" },
+      { "id": 4, "question": "Vaucluse", "answer": "84" },
+      { "id": 5, "question": "Pas-de-Calais", "answer": "62" },
+      { "id": 6, "question": "Oise", "answer": "60" },
+      { "id": 7, "question": "Guard", "answer": "30" },
+      { "id": 8, "question": "Haute-Loire", "answer": "43" },
+      { "id": 9, "question": "Ardèche", "answer": "07" }
+    ]
+  },
+  {
+    "title": "Devinettes",
+    "id": 1,
+    "cards": [
+      { "id": 0, "question": "Qui se lève sans faire de bruit ?", "answer": "Le Jour." },
+      { "id": 1, "question": "Qu'est ce qui réfléchit sans réfléchir ?", "answer": "Un miroir." },
+      { "id": 2, "question": "Qu'est-ce qui a deux aiguilles mais qui ne pique pas ?", "answer": "Une montre." },
+      { "id": 3, "question": "qu'est ce qui a 2 branches mais pas de feuille ?", "answer": "Des lunettes." },
+      { "id": 4, "question": "Qu'est-ce qui peut faire le tour d'une maison sans bouger ?", "answer": "Le mur." },
+      { "id": 5, "question": "Quand je mange je grandis et quand je bois je meurs. Qui suis je ?", "answer": "Le feu." },
+      { "id": 6, "question": "Qui tombe sans se faire mal ?", "answer": "La nuit." }
+    ]
+  }
+]
