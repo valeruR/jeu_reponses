@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Form, Button } from 'react-bootstrap';
 import { addStack } from '../actions';
 
-class StackForm extends Component {
+export class StackForm extends Component {
   constructor() {
     super();
 
@@ -48,7 +48,7 @@ class StackForm extends Component {
                 <div key={card.id}>
                   <br />
                   <Form.Group>
-                    <Form.Label>Promt:</Form.Label>
+                    <Form.Label>Question:</Form.Label>
                     {' '}
                     <Form.Control 
                       onChange={event => this.updateCardPart(event, index, 'question')} />
