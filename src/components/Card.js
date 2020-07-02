@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Card extends Component {
+export class Card extends Component {
   constructor() {
     super();
 
@@ -11,7 +11,7 @@ class Card extends Component {
   render() {
     const {question, answer } = this.props.card;
     return (
-      <div className='card' onClick={() => this.setState({ reveal: !this.state.reveal })}>
+      <div className='card' onClick={() => this.setState({ reveal: true })}>
         <div className='card-question'><h4>{question}</h4></div>
         <div className='card-answer'><h4 className={this.state.reveal ? 'text-revealed' : 'text-hidden'}>{answer}</h4></div>
       </div>
